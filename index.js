@@ -24,9 +24,15 @@ let persons = [
     name: "Mary Poppendick",
     number: "39-23-6423122",
   },
+  {
+    id: 5,
+    name: "James",
+    number: "39-23-6423122",
+  },
 ];
 
 app.use(express.json());
+app.use(express.static('build'))
 
 app.use(
   morgan((tokens, request, response) => {
