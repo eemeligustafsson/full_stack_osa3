@@ -15,3 +15,5 @@ Git remote heroku added
 git push heroku main
 
 cp -r build
+
+npm install mongoose
